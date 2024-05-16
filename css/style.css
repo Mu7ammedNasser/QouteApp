@@ -1,14 +1,9 @@
-*{
-    box-sizing: border-box;
-}
 
 body {
-
     background-color: #F3CA52;
 }
 .parent {
     color: #0A6847;
-    margin-top: 100px;
     height: 100vh;
 }
 
@@ -25,13 +20,26 @@ body {
 .parent button:hover {
     background-color: #006769;
     border: 2px solid #40A578;
-    
 }
 
 .parent p {
     font-size: 35px;
 }
 
+
+@media (max-width: 640px) {
+    .parent h1 {
+        font-size: 40px;
+    }
+    .parent .content {
+        width: 100% !important;
+        padding: 0px  20px;
+    }
+    .parent .content p {
+        font-size: 21px;
+    }
+    
+}
 
 
 
