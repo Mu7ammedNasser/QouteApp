@@ -21,7 +21,7 @@ function generateQuote() {
   while (x === lastRandomNuber) {
     x = Math.floor(Math.random() * qoutelist.length);
   }
-  previousIndex = x;
+  lastRandomNuber = x;
   document.getElementById("quote").innerHTML = qoutelist[x];
   document.getElementById("quoteAouther").innerHTML = qoutelistAouther[x];
 }
