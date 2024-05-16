@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #F3CA52;
+}
+.parent {
+    color: #0A6847;
+    margin-top: 100px;
+    height: 100vh;
+}
+
+.parent h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.parent button {
+    background-color: #40A578;
+    border: 2px solid #006769;
+}
+
+.parent button:hover {
+    background-color: #006769;
+    border: 2px solid #40A578;
+    
+}
+
+.parent p {
+    font-size: 35px;
+}
+
+
+
+
