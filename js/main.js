@@ -15,13 +15,14 @@ var qoutelistAouther = [
   `― J.K. Rowling, Harry Potter and the Goblet of Fire`,
 ];
 
-var lastRandomNumber = -1;
+var lastRandomNuber = -1;
 function generateQuote() {
-  var x = Math.floor(Math.random() * qoutelist.length);
+  var x = Math.floor(Math.random() * qoutelist.length );
   while (x === lastRandomNuber) {
     x = Math.floor(Math.random() * qoutelist.length);
   }
-  lastRandomNumber = x;
+  lastRandomNuber = x;
   document.getElementById("quote").innerHTML = qoutelist[x];
   document.getElementById("quoteAouther").innerHTML = qoutelistAouther[x];
 }
+
